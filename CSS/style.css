@@ -84,29 +84,28 @@ span {
   align-items: center;
   background-color: rgb(255, 255, 255);
   margin: 20px;
-  width:40%;
+  width: 40%;
 }
 .h2-bg {
   width: 100%;
   background-color: rgb(0, 50, 0);
-
 }
 .form h2 {
   color: white;
   padding: 10px;
   text-align: center;
 }
-.form .contents{
+.form .contents {
   display: flex;
   align-items: center;
   width: 100%;
-
 }
 .form .contents .fields {
   width: 100%;
   text-align: center;
 }
-.form .contents .fields input, textarea {
+.form .contents .fields input,
+textarea {
   padding: 10px;
   width: 80%;
 }
@@ -114,4 +113,42 @@ span {
   background-color: rgb(255, 196, 0);
   color: white;
   border: none;
+}
+.section2 {
+  background-color: rgb(200, 200, 200);
+  text-align: center;
+}
+.section2-figures {
+  margin: 0% 5%;
+}
+figure {
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  color: black;
+  width: 20%;
+  margin: 25px;
+}
+figure img {
+  width: 100%;
+}
+figcaption {
+  width: 100%;
+  padding: 10px;
+}
+.fixed {
+  position: fixed;
+  bottom: 10%;
+  left: 0%;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  z-index: 1;
+}
+td {
+  text-align: left;
+  padding: 10px;
 }
