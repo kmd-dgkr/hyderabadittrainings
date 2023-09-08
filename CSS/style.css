@@ -1,31 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 * {
   margin: auto;
-  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+div {
+  margin: 0px;
 }
 header {
-    text-align: justify;
+  text-align: justify;
 }
 .header1 {
-    text-align: center; 
-    background-color: green; 
-    color: white;
-    height: 100%;
+  background-color: green;
+  color: white;
+  height: 100%;
 }
 .header1 .contents {
-    width: 90%;
+  width: 85%;
 }
-.header1 .contents .left{
-    float: left;
-    padding: 12px;
+.header1 .contents .left {
+  float: left;
+  padding: 12px;
 }
-.header1 .contents .right{
-    float: right;
-    padding: 12px;
+.header1 .contents .right {
+  float: right;
+  padding: 12px;
 }
 .clearfix {
-    clear: both;
-    display: table;
+  clear: both;
+  display: table;
 }
+.header2 {
+  height: 100%;
+}
+.header2 .contents {
+  display: flex;
+  align-items: center;
+  width: 85%;
+}
+.navleft {
+  width: 30%;
+}
+.navleft img {
+  padding: 0px 10px;
+}
+.navright {
+  width: 70%;
+  text-align: right;
+}
+.navitems a {
+  font-size: smaller;
+  font-weight: bolder;
+  margin: auto;
+  padding: 10px;
+}
+.full-width {
+  width: 100%;
+}
+span {
+  color: brown;
+}
+.container {
+  background-color: rgb(250, 250, 250);
+}
+.section1 {
+  width: 85%;
+  display: flex;
+  align-items: center;
+}
+.section1-left {
+  width: 70%;
+  margin: 0px;
+  padding: 10px;
+  text-align: justify;
+}
+.bold {
+  font-weight: bolder;
+  color: black;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  width:40%;
+}
+.h2-bg {
+  width: 100%;
+  background-color: rgb(0, 50, 0);
 
+}
+.form h2 {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.form .contents{
+  display: flex;
+  align-items: center;
+  width: 100%;
 
+}
+.form .contents .fields {
+  width: 100%;
+  text-align: center;
+}
+.form .contents .fields input, textarea {
+  padding: 10px;
+  width: 80%;
+}
+.submit {
+  background-color: rgb(255, 196, 0);
+  color: white;
+  border: none;
+}
