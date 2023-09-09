@@ -154,7 +154,7 @@ figcaption {
   left: 0%;
   background-color: green;
   color: white;
-  border: none;
+  border: solid rgb(0, 124, 0);
   padding: 10px;
   width: 150px;
   height: 50px;
@@ -178,7 +178,7 @@ thead {
 td,
 th {
   text-align: left;
-  padding: 20px;
+  padding: 10px;
   border: solid thin rgb(210, 210, 210);
 }
 td a {
@@ -235,4 +235,82 @@ figcaption p {
 }
 .section6 img {
   width: 20%;
+}
+.footer1 {
+  background-color: green;
+}
+.footer1 .flex {
+  width: 80%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.footer1 .content,
+.footer1 .lmcontent {
+  width: 25%;
+  padding: 10px;
+}
+.justified-text {
+  text-align: justify;
+}
+.footer1 .content li {
+  list-style: ">  ";
+  color: rgb(255, 200, 0);
+}
+.footer1 .content li p {
+  color: white;
+}
+.footer1 .content li p:hover {
+  color: rgb(255, 200, 0);
+  padding-left: 10px;
+}
+.lmcontent p {
+  margin-left: 20px;
+}
+.footer2{
+  background-color:  darkgreen;
+}
+.footer2 .flex {
+  width: 80%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+}
+.footer2 .flex .left {
+  width: 70%;
+}
+.footer2 .flex .right {
+  width: 30%;
+  text-align: right;
+}
+.footer2 span{
+  color: rgb(0, 110, 255);
+}
+.page-header {
+  background-color: #002147;
+  color: white;
+  height: 100px;
+  /* border: solid white; */
+  align-items: center;
+  display: flex;
+}
+.page-header .flex {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  /* border: solid white; */
+  padding: 10px;
+}
+.page-header .flex .left {
+  text-align: left;
+  width: 50%;
+}
+.page-header .flex .right {
+  text-align: right;
+  width: 50%;
+}
+.page-header .flex .right span {
+  color: rgb(255, 200, 0);
 }
